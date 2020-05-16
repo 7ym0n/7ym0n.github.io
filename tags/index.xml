@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 7ym0n</title>
+    <link>https://www.scanbuf.net/tags/</link>
+    <description>Recent content in Tags on 7ym0n</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 10 Oct 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.scanbuf.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>javascript</title>
+      <link>https://www.scanbuf.net/tags/javascript/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.scanbuf.net/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>js</title>
+      <link>https://www.scanbuf.net/tags/js/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.scanbuf.net/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FreeSoftware</title>
+      <link>https://www.scanbuf.net/tags/freesoftware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.scanbuf.net/tags/freesoftware/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

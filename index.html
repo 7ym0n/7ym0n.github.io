@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.70.0" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>7ym0n</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="个人技术分享，记录生活">
+	<meta property="og:title" content="7ym0n" />
+<meta property="og:description" content="个人技术分享，记录生活" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.scanbuf.net/" />
+<meta property="og:updated_time" content="2017-10-10T00:00:00+08:00" />
+
+	
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="alternate" type="application/rss+xml" href="/index.xml" title="7ym0n">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-39903197-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="/" title="7ym0n" rel="home">
+				<div class="logo__title">7ym0n</div>
+				<div class="logo__tagline">个人技术分享，记录生活</div>
+			</a>
+		</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/post/about/">
+				
+				<span class="menu__text">About</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main list" role="main">
+	<article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/js-screen-zoom-operation/" rel="bookmark">
+			js屏幕缩放原理
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2017-10-10T00:00:00&#43;08:00">2017-10-10</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/javascript/" rel="category">javascript</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		实现对页面的预览  采用原生 js 实现页面缩放功能，需要计算[100%]：  屏幕宽度与高度； 缩放比例计算； 宽度高度改变联动；    获取屏幕高宽度 获取默认的宽度与高度：
+if (window.innerHeight &amp;&amp; window.innerWidth){ this.height = window.innerHeight; this.width = window.innerWidth; }else if ((document.body) &amp;&amp; (document.body.clientHeight)){ this.height = document.body.clientHeight; this.width = document.body.clientWidth; } 计算缩放比例 对需要缩放的内容进行计算，计算公式：`容器高度/缩放对象高度 = scale`。容器是缩放对象的参照物，假设需要缩放 body 里面的 div 矩阵（即缩放对象），那么容器即为 body 本身；例如：
+&lt;div id=&quot;panel_container&quot; style=&quot;width:1066.656px;height:600px; border: 1px solid;&quot;&gt;&lt;div id=&quot;screenshot&quot; style=&quot;width:100%;height:100%;&quot;&gt;&lt;div id=&quot;preview&quot; style=&quot;width:1920px;height:1080px; border: 1px solid;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;那么需要计算 preview 的缩放比例，就是：`600/1080 = 0.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/why-you-need-to-know-freesoftware/" rel="bookmark">
+			为什么需要了解自由软件，而不只是开源软件
+			</a>
+		</h3>
+		<div class="list__meta meta"><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/freesoftware/" rel="category">FreeSoftware</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		为什么会写这篇文章 今天 hackernews1 上 jsiepkes 爆料 github 要求下架 EdgeFS 开源项目分支，理 由是由于上游项目闭源了。
+其实，这样的事情不止发生过这一次，而是很多次，包括国内，以前也发生过类似的事情， 历史问题就不过多说明了，感兴趣可以自行 Google。
+国内大多数软件从业人员可能并不清楚为什么会这样？这就要从头了解整个开源世界的起 源了。国内大多数顶级开发者推崇开源，并做开源项目或者为开源项目做贡献，当然给开源 项目做贡献是非常好的行为，但在介绍开源软件时很少提到或者根本不介绍自由软件。由此 笔者真的认为并感觉国内的开源社区风气真的不是很好，太浮躁了，利益心太重，并且可以 说是违背了开源运动的初衷，当然肯定符合实用主义的利益至上价值观。
+为什么开源软件闭源后就没办法继续使用了呢？ 其实这个问题本身上不难理解，比如我们常见的自由软件/开源软件许可协议有：
+ GPL/LGPL BSD Apache Mozilla MIT  主要是开源许可协议的要求是这样的。比如以 BSD 协议代码为基础做二次开发自己的产品时， 需要满足三个条件：
+  如果再发布的产品中包含源代码，则在源代码中必须带有原来代码中的 BSD 协议。
+  如果再发布的只是二进制类库/软件，则需要在类库/软件的文档和版权声明中包含原 来代码中的 BSD 协议。
+  不可以用开源代码的作者/机构名字和原来产品的名字做市场推广。 BSD 代码鼓励代 码共享， 但需要尊重代码作者的著作权 。
+  BSD 由于允许使用者修改和重新发布代码，也允许使用或在 BSD 代码上开发商业软件发 布和销售，因此是对 商业集成很友好的协议。而很多的公司企业在选用开源产品的时候都 首选 BSD 协议， 因为可以完全控制这些第三方的代码 ，在必要的时候可以修改或者二 次开发。
+像 Apache 许可协议之类的和 BSD 许可协议是类似的。现在知道为什么会有这种问题了 吧？
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/about/" rel="bookmark">
+			关于我
+			</a>
+		</h3>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		 这个家伙很懒！最大的爱好吃喝玩乐!!!
+ 
+	</div>
+</article>
+</main>
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q" aria-label="SEARCH...">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://www.scanbuf.net" />
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/js-screen-zoom-operation/">js屏幕缩放原理</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/why-you-need-to-know-freesoftware/">为什么需要了解自由软件，而不只是开源软件</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/about/">关于我</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/freesoftware/">FreeSoftware</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/javascript/">javascript</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/freesoftware/" title="FreeSoftware">FreeSoftware (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/javascript/" title="javascript">javascript (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/js/" title="js">js (1)</a>
+	</div>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="GitHub" rel="noopener noreferrer" href="https://github.com/7ym0n" target="_blank">
+				<svg class="widget-social__link-icon icon icon-github" width="24" height="24" viewBox="0 0 384 374"><path d="m192 0c-106.1 0-192 85.8-192 191.7 0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2 0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8 0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7 0 0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4 0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5 0 25.6-.2 46.3-.2 52.6 0 5.1 3.5 11.1 13.2 9.2 76.2-25.5 131.2-97.3 131.2-182 0-105.9-86-191.7-192-191.7z"/></svg>
+				<span>GitHub</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Email" href="mailto:bb.qnyd@gmail.com">
+				<svg class="widget-social__link-icon icon icon-mail" width="24" height="24" viewBox="0 0 416 288"><path d="m0 16v256 16h16 384 16v-16-256-16h-16-384-16zm347 16-139 92.5-139-92.5zm-148 125.5 9 5.5 9-5.5 167-111.5v210h-352v-210z"/></svg>
+				<span>bb.qnyd@gmail.com</span>
+			</a>
+		</div>
+
+		
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2020 7ym0n.
+		</div>
+	</div>
+</footer>
+
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

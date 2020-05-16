@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7ym0n</title>
+    <link>https://www.scanbuf.net/</link>
+    <description>Recent content on 7ym0n</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 10 Oct 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.scanbuf.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>js屏幕缩放原理</title>
+      <link>https://www.scanbuf.net/post/js-screen-zoom-operation/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.scanbuf.net/post/js-screen-zoom-operation/</guid>
+      <description>实现对页面的预览  采用原生 js 实现页面缩放功能，需要计算[100%]：  屏幕宽度与高度； 缩放比例计算； 宽度高度改变联动；    获取屏幕高宽度 获取默认的宽度与高度：
+if (window.innerHeight &amp;amp;&amp;amp; window.innerWidth){ this.height = window.innerHeight; this.width = window.innerWidth; }else if ((document.body) &amp;amp;&amp;amp; (document.body.clientHeight)){ this.height = document.body.clientHeight; this.width = document.body.clientWidth; } 计算缩放比例 对需要缩放的内容进行计算，计算公式：`容器高度/缩放对象高度 = scale`。容器是缩放对象的参照物，假设需要缩放 body 里面的 div 矩阵（即缩放对象），那么容器即为 body 本身；例如：
+&amp;lt;div id=&amp;quot;panel_container&amp;quot; style=&amp;quot;width:1066.656px;height:600px; border: 1px solid;&amp;quot;&amp;gt;&amp;lt;div id=&amp;quot;screenshot&amp;quot; style=&amp;quot;width:100%;height:100%;&amp;quot;&amp;gt;&amp;lt;div id=&amp;quot;preview&amp;quot; style=&amp;quot;width:1920px;height:1080px; border: 1px solid;&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;那么需要计算 preview 的缩放比例，就是：`600/1080 = 0.</description>
+    </item>
+    
+    <item>
+      <title>为什么需要了解自由软件，而不只是开源软件</title>
+      <link>https://www.scanbuf.net/post/why-you-need-to-know-freesoftware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.scanbuf.net/post/why-you-need-to-know-freesoftware/</guid>
+      <description>为什么会写这篇文章 今天 hackernews1 上 jsiepkes 爆料 github 要求下架 EdgeFS 开源项目分支，理 由是由于上游项目闭源了。
+其实，这样的事情不止发生过这一次，而是很多次，包括国内，以前也发生过类似的事情， 历史问题就不过多说明了，感兴趣可以自行 Google。
+国内大多数软件从业人员可能并不清楚为什么会这样？这就要从头了解整个开源世界的起 源了。国内大多数顶级开发者推崇开源，并做开源项目或者为开源项目做贡献，当然给开源 项目做贡献是非常好的行为，但在介绍开源软件时很少提到或者根本不介绍自由软件。由此 笔者真的认为并感觉国内的开源社区风气真的不是很好，太浮躁了，利益心太重，并且可以 说是违背了开源运动的初衷，当然肯定符合实用主义的利益至上价值观。
+为什么开源软件闭源后就没办法继续使用了呢？ 其实这个问题本身上不难理解，比如我们常见的自由软件/开源软件许可协议有：
+ GPL/LGPL BSD Apache Mozilla MIT  主要是开源许可协议的要求是这样的。比如以 BSD 协议代码为基础做二次开发自己的产品时， 需要满足三个条件：
+  如果再发布的产品中包含源代码，则在源代码中必须带有原来代码中的 BSD 协议。
+  如果再发布的只是二进制类库/软件，则需要在类库/软件的文档和版权声明中包含原 来代码中的 BSD 协议。
+  不可以用开源代码的作者/机构名字和原来产品的名字做市场推广。 BSD 代码鼓励代 码共享， 但需要尊重代码作者的著作权 。
+  BSD 由于允许使用者修改和重新发布代码，也允许使用或在 BSD 代码上开发商业软件发 布和销售，因此是对 商业集成很友好的协议。而很多的公司企业在选用开源产品的时候都 首选 BSD 协议， 因为可以完全控制这些第三方的代码 ，在必要的时候可以修改或者二 次开发。
+像 Apache 许可协议之类的和 BSD 许可协议是类似的。现在知道为什么会有这种问题了 吧？</description>
+    </item>
+    
+    <item>
+      <title>关于我</title>
+      <link>https://www.scanbuf.net/post/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.scanbuf.net/post/about/</guid>
+      <description> 这个家伙很懒！最大的爱好吃喝玩乐!!!
+ </description>
+    </item>
+    
+  </channel>
+</rss>
